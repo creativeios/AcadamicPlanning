@@ -14,9 +14,25 @@
 
 @implementation AppDelegate
 
++(AppDelegate *)sharedInstance{
+    return (AppDelegate*)[[UIApplication sharedApplication]delegate];
 
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    _arrToDo =[NSMutableArray new];
+    
+    
+    
+    
+    
+    [[UITabBar appearance] setSelectionIndicatorImage:[UIImage imageNamed:@"Button_3.png"]];
+    
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"Cochin-Italic" size:15.0f]}forState:UIControlStateSelected];
+    
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"Cochin-Italic" size:15.0f]}forState:UIControlStateNormal];
+    
+    
     return YES;
 }
 

@@ -7,9 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6579172A1D8952A000DA6201 /* ToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657917291D8952A000DA6201 /* ToDoViewController.m */; };
+		65C1AA9F1D881841003B7FF6 /* HomeVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C1AA9E1D881841003B7FF6 /* HomeVc.m */; };
+		65C1AAA91D881B69003B7FF6 /* booklist.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAA31D881B69003B7FF6 /* booklist.pdf */; };
+		65C1AAAA1D881B69003B7FF6 /* timetable.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAA41D881B69003B7FF6 /* timetable.pdf */; };
+		65C1AAAE1D8821FE003B7FF6 /* DisplayDataVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C1AAAD1D8821FE003B7FF6 /* DisplayDataVC.m */; };
+		65C1AAB01D883558003B7FF6 /* MobileCompChap01L07_MobComputing.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAAF1D883558003B7FF6 /* MobileCompChap01L07_MobComputing.pdf */; };
+		65C1AAC21D883F74003B7FF6 /* dm_qp1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AABD1D883F74003B7FF6 /* dm_qp1.pdf */; };
+		65C1AAC31D883F74003B7FF6 /* dm_qp2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AABE1D883F74003B7FF6 /* dm_qp2.pdf */; };
+		65C1AAC41D883F74003B7FF6 /* dm_qp3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AABF1D883F74003B7FF6 /* dm_qp3.pdf */; };
+		65C1AAC51D883F74003B7FF6 /* dm_qp4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAC01D883F74003B7FF6 /* dm_qp4.pdf */; };
+		65C1AAC61D883F74003B7FF6 /* dm_qp5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAC11D883F74003B7FF6 /* dm_qp5.pdf */; };
+		65C1AAC91D884000003B7FF6 /* acad_plan_dm.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAC71D884000003B7FF6 /* acad_plan_dm.pdf */; };
+		65C1AACA1D884000003B7FF6 /* ass_dm.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAC81D884000003B7FF6 /* ass_dm.pdf */; };
+		65C1AACC1D88402A003B7FF6 /* syl_dm.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AACB1D88402A003B7FF6 /* syl_dm.pdf */; };
+		65C1AACF1D884049003B7FF6 /* acad_plan_ins.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AACD1D884049003B7FF6 /* acad_plan_ins.pdf */; };
+		65C1AAD01D884049003B7FF6 /* ass_ins.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AACE1D884049003B7FF6 /* ass_ins.pdf */; };
+		65C1AAD61D8840B2003B7FF6 /* ins_ch01.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAD11D8840B2003B7FF6 /* ins_ch01.pdf */; };
+		65C1AAD71D8840B2003B7FF6 /* ins_ch02.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAD21D8840B2003B7FF6 /* ins_ch02.pdf */; };
+		65C1AAD81D8840B2003B7FF6 /* ins_ch03.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAD31D8840B2003B7FF6 /* ins_ch03.pdf */; };
+		65C1AAD91D8840B2003B7FF6 /* ins_ch04.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAD41D8840B2003B7FF6 /* ins_ch04.pdf */; };
+		65C1AADA1D8840B2003B7FF6 /* ins_ch05.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAD51D8840B2003B7FF6 /* ins_ch05.pdf */; };
+		65C1AAE21D8840C2003B7FF6 /* 160702_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AADB1D8840C2003B7FF6 /* 160702_1.pdf */; };
+		65C1AAE31D8840C2003B7FF6 /* 160702_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AADC1D8840C2003B7FF6 /* 160702_2.pdf */; };
+		65C1AAE41D8840C2003B7FF6 /* 160702_3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AADD1D8840C2003B7FF6 /* 160702_3.pdf */; };
+		65C1AAE51D8840C2003B7FF6 /* 160702_4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AADE1D8840C2003B7FF6 /* 160702_4.pdf */; };
+		65C1AAE61D8840C2003B7FF6 /* 160702_5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AADF1D8840C2003B7FF6 /* 160702_5.pdf */; };
+		65C1AAE71D8840C2003B7FF6 /* 160702_6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAE01D8840C2003B7FF6 /* 160702_6.pdf */; };
+		65C1AAE81D8840C2003B7FF6 /* 160702_7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAE11D8840C2003B7FF6 /* 160702_7.pdf */; };
+		65C1AAEE1D8840DD003B7FF6 /* syl_ins.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAEB1D8840DD003B7FF6 /* syl_ins.pdf */; };
+		65C1AAF11D884100003B7FF6 /* acad_plan_mcwc.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAEF1D884100003B7FF6 /* acad_plan_mcwc.pdf */; };
+		65C1AAF21D884100003B7FF6 /* ass_mcwc.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAF01D884100003B7FF6 /* ass_mcwc.pdf */; };
+		65C1AAF81D884149003B7FF6 /* mcwc_qp1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAF31D884149003B7FF6 /* mcwc_qp1.pdf */; };
+		65C1AAF91D884149003B7FF6 /* mcwc_qp2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAF41D884149003B7FF6 /* mcwc_qp2.pdf */; };
+		65C1AAFA1D884149003B7FF6 /* mcwc_qp3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAF51D884149003B7FF6 /* mcwc_qp3.pdf */; };
+		65C1AAFB1D884149003B7FF6 /* mcwc_qp4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAF61D884149003B7FF6 /* mcwc_qp4.pdf */; };
+		65C1AAFC1D884149003B7FF6 /* mcwc_qp5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAF71D884149003B7FF6 /* mcwc_qp5.pdf */; };
+		65C1AAFE1D8841B8003B7FF6 /* syl_mcwc.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAFD1D8841B8003B7FF6 /* syl_mcwc.pdf */; };
+		65C1AB021D8841CA003B7FF6 /* acad_plan_cd.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AAFF1D8841CA003B7FF6 /* acad_plan_cd.pdf */; };
+		65C1AB031D8841CA003B7FF6 /* ass_cd.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AB001D8841CA003B7FF6 /* ass_cd.pdf */; };
+		65C1AB041D8841CA003B7FF6 /* syl_cd.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AB011D8841CA003B7FF6 /* syl_cd.pdf */; };
+		65C1AB071D8841E0003B7FF6 /* cd_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AB051D8841E0003B7FF6 /* cd_1.pdf */; };
+		65C1AB081D8841E0003B7FF6 /* cd_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AB061D8841E0003B7FF6 /* cd_2.pdf */; };
+		65C1AB0C1D8843F6003B7FF6 /* Reg_2012.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AB091D8843F6003B7FF6 /* Reg_2012.pdf */; };
+		65C1AB0D1D8843F6003B7FF6 /* Reg_2013.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AB0A1D8843F6003B7FF6 /* Reg_2013.pdf */; };
+		65C1AB0E1D8843F6003B7FF6 /* Reg_2014.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65C1AB0B1D8843F6003B7FF6 /* Reg_2014.pdf */; };
+		A972B9081D89B04A00C88D57 /* homeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A972B9071D89B04A00C88D57 /* homeicon.png */; };
+		A972B90B1D89B0B100C88D57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A972B90A1D89B0B100C88D57 /* ViewController.m */; };
+		A972B90D1D89B9CD00C88D57 /* amirajlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A972B90C1D89B9CD00C88D57 /* amirajlogo.png */; };
 		A9B84DF81D87FA3400CDA465 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B84DF71D87FA3400CDA465 /* main.m */; };
 		A9B84DFB1D87FA3400CDA465 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B84DFA1D87FA3400CDA465 /* AppDelegate.m */; };
-		A9B84DFE1D87FA3500CDA465 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B84DFD1D87FA3500CDA465 /* ViewController.m */; };
 		A9B84E011D87FA3500CDA465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B84DFF1D87FA3500CDA465 /* Main.storyboard */; };
 		A9B84E041D87FA3500CDA465 /* IOSproject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9B84E021D87FA3500CDA465 /* IOSproject.xcdatamodeld */; };
 		A9B84E061D87FA3500CDA465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B84E051D87FA3500CDA465 /* Assets.xcassets */; };
@@ -17,12 +64,62 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		657917281D8952A000DA6201 /* ToDoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoViewController.h; sourceTree = "<group>"; };
+		657917291D8952A000DA6201 /* ToDoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoViewController.m; sourceTree = "<group>"; };
+		65C1AA9D1D881841003B7FF6 /* HomeVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeVc.h; path = ../HomeVc.h; sourceTree = "<group>"; };
+		65C1AA9E1D881841003B7FF6 /* HomeVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeVc.m; path = ../HomeVc.m; sourceTree = "<group>"; };
+		65C1AAA31D881B69003B7FF6 /* booklist.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = booklist.pdf; sourceTree = "<group>"; };
+		65C1AAA41D881B69003B7FF6 /* timetable.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = timetable.pdf; sourceTree = "<group>"; };
+		65C1AAAC1D8821FE003B7FF6 /* DisplayDataVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayDataVC.h; sourceTree = "<group>"; };
+		65C1AAAD1D8821FE003B7FF6 /* DisplayDataVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayDataVC.m; sourceTree = "<group>"; };
+		65C1AAAF1D883558003B7FF6 /* MobileCompChap01L07_MobComputing.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MobileCompChap01L07_MobComputing.pdf; sourceTree = "<group>"; };
+		65C1AABD1D883F74003B7FF6 /* dm_qp1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = dm_qp1.pdf; path = "dm/qpaper dm/dm_qp1.pdf"; sourceTree = "<group>"; };
+		65C1AABE1D883F74003B7FF6 /* dm_qp2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = dm_qp2.pdf; path = "dm/qpaper dm/dm_qp2.pdf"; sourceTree = "<group>"; };
+		65C1AABF1D883F74003B7FF6 /* dm_qp3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = dm_qp3.pdf; path = "dm/qpaper dm/dm_qp3.pdf"; sourceTree = "<group>"; };
+		65C1AAC01D883F74003B7FF6 /* dm_qp4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = dm_qp4.pdf; path = "dm/qpaper dm/dm_qp4.pdf"; sourceTree = "<group>"; };
+		65C1AAC11D883F74003B7FF6 /* dm_qp5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = dm_qp5.pdf; path = "dm/qpaper dm/dm_qp5.pdf"; sourceTree = "<group>"; };
+		65C1AAC71D884000003B7FF6 /* acad_plan_dm.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = acad_plan_dm.pdf; path = dm/acad_plan_dm.pdf; sourceTree = "<group>"; };
+		65C1AAC81D884000003B7FF6 /* ass_dm.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = ass_dm.pdf; path = dm/ass_dm.pdf; sourceTree = "<group>"; };
+		65C1AACB1D88402A003B7FF6 /* syl_dm.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = syl_dm.pdf; path = dm/syl_dm.pdf; sourceTree = "<group>"; };
+		65C1AACD1D884049003B7FF6 /* acad_plan_ins.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = acad_plan_ins.pdf; path = ins/acad_plan_ins.pdf; sourceTree = "<group>"; };
+		65C1AACE1D884049003B7FF6 /* ass_ins.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = ass_ins.pdf; path = ins/ass_ins.pdf; sourceTree = "<group>"; };
+		65C1AAD11D8840B2003B7FF6 /* ins_ch01.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ins_ch01.pdf; sourceTree = "<group>"; };
+		65C1AAD21D8840B2003B7FF6 /* ins_ch02.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ins_ch02.pdf; sourceTree = "<group>"; };
+		65C1AAD31D8840B2003B7FF6 /* ins_ch03.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ins_ch03.pdf; sourceTree = "<group>"; };
+		65C1AAD41D8840B2003B7FF6 /* ins_ch04.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ins_ch04.pdf; sourceTree = "<group>"; };
+		65C1AAD51D8840B2003B7FF6 /* ins_ch05.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ins_ch05.pdf; sourceTree = "<group>"; };
+		65C1AADB1D8840C2003B7FF6 /* 160702_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = 160702_1.pdf; path = "ins/qpaper ins/160702_1.pdf"; sourceTree = "<group>"; };
+		65C1AADC1D8840C2003B7FF6 /* 160702_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = 160702_2.pdf; path = "ins/qpaper ins/160702_2.pdf"; sourceTree = "<group>"; };
+		65C1AADD1D8840C2003B7FF6 /* 160702_3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = 160702_3.pdf; path = "ins/qpaper ins/160702_3.pdf"; sourceTree = "<group>"; };
+		65C1AADE1D8840C2003B7FF6 /* 160702_4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = 160702_4.pdf; path = "ins/qpaper ins/160702_4.pdf"; sourceTree = "<group>"; };
+		65C1AADF1D8840C2003B7FF6 /* 160702_5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = 160702_5.pdf; path = "ins/qpaper ins/160702_5.pdf"; sourceTree = "<group>"; };
+		65C1AAE01D8840C2003B7FF6 /* 160702_6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = 160702_6.pdf; path = "ins/qpaper ins/160702_6.pdf"; sourceTree = "<group>"; };
+		65C1AAE11D8840C2003B7FF6 /* 160702_7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = 160702_7.pdf; path = "ins/qpaper ins/160702_7.pdf"; sourceTree = "<group>"; };
+		65C1AAEB1D8840DD003B7FF6 /* syl_ins.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = syl_ins.pdf; path = ins/syl_ins.pdf; sourceTree = "<group>"; };
+		65C1AAEF1D884100003B7FF6 /* acad_plan_mcwc.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = acad_plan_mcwc.pdf; path = mcwc/acad_plan_mcwc.pdf; sourceTree = "<group>"; };
+		65C1AAF01D884100003B7FF6 /* ass_mcwc.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = ass_mcwc.pdf; path = mcwc/ass_mcwc.pdf; sourceTree = "<group>"; };
+		65C1AAF31D884149003B7FF6 /* mcwc_qp1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = mcwc_qp1.pdf; path = "mcwc/qpaper mcwc/mcwc_qp1.pdf"; sourceTree = "<group>"; };
+		65C1AAF41D884149003B7FF6 /* mcwc_qp2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = mcwc_qp2.pdf; path = "mcwc/qpaper mcwc/mcwc_qp2.pdf"; sourceTree = "<group>"; };
+		65C1AAF51D884149003B7FF6 /* mcwc_qp3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = mcwc_qp3.pdf; path = "mcwc/qpaper mcwc/mcwc_qp3.pdf"; sourceTree = "<group>"; };
+		65C1AAF61D884149003B7FF6 /* mcwc_qp4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = mcwc_qp4.pdf; path = "mcwc/qpaper mcwc/mcwc_qp4.pdf"; sourceTree = "<group>"; };
+		65C1AAF71D884149003B7FF6 /* mcwc_qp5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = mcwc_qp5.pdf; path = "mcwc/qpaper mcwc/mcwc_qp5.pdf"; sourceTree = "<group>"; };
+		65C1AAFD1D8841B8003B7FF6 /* syl_mcwc.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = syl_mcwc.pdf; path = cd/syl_mcwc.pdf; sourceTree = "<group>"; };
+		65C1AAFF1D8841CA003B7FF6 /* acad_plan_cd.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = acad_plan_cd.pdf; path = cd/acad_plan_cd.pdf; sourceTree = "<group>"; };
+		65C1AB001D8841CA003B7FF6 /* ass_cd.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = ass_cd.pdf; path = cd/ass_cd.pdf; sourceTree = "<group>"; };
+		65C1AB011D8841CA003B7FF6 /* syl_cd.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = syl_cd.pdf; path = cd/syl_cd.pdf; sourceTree = "<group>"; };
+		65C1AB051D8841E0003B7FF6 /* cd_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = cd_1.pdf; path = "cd/qpaper cd/cd_1.pdf"; sourceTree = "<group>"; };
+		65C1AB061D8841E0003B7FF6 /* cd_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = cd_2.pdf; path = "cd/qpaper cd/cd_2.pdf"; sourceTree = "<group>"; };
+		65C1AB091D8843F6003B7FF6 /* Reg_2012.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Reg_2012.pdf; path = "cd/qpaper cd/Reg_2012.pdf"; sourceTree = "<group>"; };
+		65C1AB0A1D8843F6003B7FF6 /* Reg_2013.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Reg_2013.pdf; path = "cd/qpaper cd/Reg_2013.pdf"; sourceTree = "<group>"; };
+		65C1AB0B1D8843F6003B7FF6 /* Reg_2014.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Reg_2014.pdf; path = "cd/qpaper cd/Reg_2014.pdf"; sourceTree = "<group>"; };
+		A972B9071D89B04A00C88D57 /* homeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = homeicon.png; path = Assets.xcassets/homeicon.png; sourceTree = "<group>"; };
+		A972B9091D89B0B100C88D57 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A972B90A1D89B0B100C88D57 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A972B90C1D89B9CD00C88D57 /* amirajlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amirajlogo.png; sourceTree = "<group>"; };
 		A9B84DF31D87FA3400CDA465 /* IOSproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B84DF71D87FA3400CDA465 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9B84DF91D87FA3400CDA465 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A9B84DFA1D87FA3400CDA465 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A9B84DFC1D87FA3400CDA465 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A9B84DFD1D87FA3500CDA465 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A9B84E001D87FA3500CDA465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9B84E031D87FA3500CDA465 /* IOSproject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOSproject.xcdatamodel; sourceTree = "<group>"; };
 		A9B84E051D87FA3500CDA465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,16 +157,24 @@
 		A9B84DF51D87FA3400CDA465 /* IOSproject */ = {
 			isa = PBXGroup;
 			children = (
+				A972B9091D89B0B100C88D57 /* ViewController.h */,
+				A972B90A1D89B0B100C88D57 /* ViewController.m */,
+				65C1AA9D1D881841003B7FF6 /* HomeVc.h */,
+				65C1AA9E1D881841003B7FF6 /* HomeVc.m */,
+				65C1AAAC1D8821FE003B7FF6 /* DisplayDataVC.h */,
+				65C1AAAD1D8821FE003B7FF6 /* DisplayDataVC.m */,
 				A9B84DF91D87FA3400CDA465 /* AppDelegate.h */,
 				A9B84DFA1D87FA3400CDA465 /* AppDelegate.m */,
-				A9B84DFC1D87FA3400CDA465 /* ViewController.h */,
-				A9B84DFD1D87FA3500CDA465 /* ViewController.m */,
 				A9B84DFF1D87FA3500CDA465 /* Main.storyboard */,
 				A9B84E051D87FA3500CDA465 /* Assets.xcassets */,
+				A972B90C1D89B9CD00C88D57 /* amirajlogo.png */,
+				A972B9071D89B04A00C88D57 /* homeicon.png */,
 				A9B84E071D87FA3500CDA465 /* LaunchScreen.storyboard */,
 				A9B84E0A1D87FA3500CDA465 /* Info.plist */,
 				A9B84E021D87FA3500CDA465 /* IOSproject.xcdatamodeld */,
 				A9B84DF61D87FA3400CDA465 /* Supporting Files */,
+				657917281D8952A000DA6201 /* ToDoViewController.h */,
+				657917291D8952A000DA6201 /* ToDoViewController.m */,
 			);
 			path = IOSproject;
 			sourceTree = "<group>";
@@ -77,6 +182,48 @@
 		A9B84DF61D87FA3400CDA465 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				65C1AABD1D883F74003B7FF6 /* dm_qp1.pdf */,
+				65C1AABE1D883F74003B7FF6 /* dm_qp2.pdf */,
+				65C1AABF1D883F74003B7FF6 /* dm_qp3.pdf */,
+				65C1AAC01D883F74003B7FF6 /* dm_qp4.pdf */,
+				65C1AAC11D883F74003B7FF6 /* dm_qp5.pdf */,
+				65C1AAD11D8840B2003B7FF6 /* ins_ch01.pdf */,
+				65C1AAD21D8840B2003B7FF6 /* ins_ch02.pdf */,
+				65C1AAD31D8840B2003B7FF6 /* ins_ch03.pdf */,
+				65C1AAD41D8840B2003B7FF6 /* ins_ch04.pdf */,
+				65C1AAD51D8840B2003B7FF6 /* ins_ch05.pdf */,
+				65C1AAC71D884000003B7FF6 /* acad_plan_dm.pdf */,
+				65C1AAC81D884000003B7FF6 /* ass_dm.pdf */,
+				65C1AACB1D88402A003B7FF6 /* syl_dm.pdf */,
+				65C1AACD1D884049003B7FF6 /* acad_plan_ins.pdf */,
+				65C1AACE1D884049003B7FF6 /* ass_ins.pdf */,
+				65C1AAAF1D883558003B7FF6 /* MobileCompChap01L07_MobComputing.pdf */,
+				65C1AADB1D8840C2003B7FF6 /* 160702_1.pdf */,
+				65C1AADC1D8840C2003B7FF6 /* 160702_2.pdf */,
+				65C1AADD1D8840C2003B7FF6 /* 160702_3.pdf */,
+				65C1AADE1D8840C2003B7FF6 /* 160702_4.pdf */,
+				65C1AADF1D8840C2003B7FF6 /* 160702_5.pdf */,
+				65C1AAE01D8840C2003B7FF6 /* 160702_6.pdf */,
+				65C1AAE11D8840C2003B7FF6 /* 160702_7.pdf */,
+				65C1AAEF1D884100003B7FF6 /* acad_plan_mcwc.pdf */,
+				65C1AAF01D884100003B7FF6 /* ass_mcwc.pdf */,
+				65C1AAEB1D8840DD003B7FF6 /* syl_ins.pdf */,
+				65C1AAF31D884149003B7FF6 /* mcwc_qp1.pdf */,
+				65C1AAF41D884149003B7FF6 /* mcwc_qp2.pdf */,
+				65C1AAF51D884149003B7FF6 /* mcwc_qp3.pdf */,
+				65C1AAF61D884149003B7FF6 /* mcwc_qp4.pdf */,
+				65C1AAF71D884149003B7FF6 /* mcwc_qp5.pdf */,
+				65C1AAFD1D8841B8003B7FF6 /* syl_mcwc.pdf */,
+				65C1AAFF1D8841CA003B7FF6 /* acad_plan_cd.pdf */,
+				65C1AB001D8841CA003B7FF6 /* ass_cd.pdf */,
+				65C1AB051D8841E0003B7FF6 /* cd_1.pdf */,
+				65C1AB061D8841E0003B7FF6 /* cd_2.pdf */,
+				65C1AB091D8843F6003B7FF6 /* Reg_2012.pdf */,
+				65C1AB0A1D8843F6003B7FF6 /* Reg_2013.pdf */,
+				65C1AB0B1D8843F6003B7FF6 /* Reg_2014.pdf */,
+				65C1AB011D8841CA003B7FF6 /* syl_cd.pdf */,
+				65C1AAA31D881B69003B7FF6 /* booklist.pdf */,
+				65C1AAA41D881B69003B7FF6 /* timetable.pdf */,
 				A9B84DF71D87FA3400CDA465 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -113,6 +260,7 @@
 				TargetAttributes = {
 					A9B84DF21D87FA3400CDA465 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8MS62Z4QXG;
 					};
 				};
 			};
@@ -139,9 +287,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C1AAC41D883F74003B7FF6 /* dm_qp3.pdf in Resources */,
+				65C1AAB01D883558003B7FF6 /* MobileCompChap01L07_MobComputing.pdf in Resources */,
+				65C1AAE71D8840C2003B7FF6 /* 160702_6.pdf in Resources */,
+				65C1AB0D1D8843F6003B7FF6 /* Reg_2013.pdf in Resources */,
+				65C1AAD81D8840B2003B7FF6 /* ins_ch03.pdf in Resources */,
+				65C1AAF81D884149003B7FF6 /* mcwc_qp1.pdf in Resources */,
+				65C1AAD61D8840B2003B7FF6 /* ins_ch01.pdf in Resources */,
+				65C1AB031D8841CA003B7FF6 /* ass_cd.pdf in Resources */,
+				65C1AAC21D883F74003B7FF6 /* dm_qp1.pdf in Resources */,
 				A9B84E091D87FA3500CDA465 /* LaunchScreen.storyboard in Resources */,
+				65C1AAE51D8840C2003B7FF6 /* 160702_4.pdf in Resources */,
+				65C1AAD71D8840B2003B7FF6 /* ins_ch02.pdf in Resources */,
+				65C1AAA91D881B69003B7FF6 /* booklist.pdf in Resources */,
+				65C1AAC61D883F74003B7FF6 /* dm_qp5.pdf in Resources */,
+				65C1AACF1D884049003B7FF6 /* acad_plan_ins.pdf in Resources */,
+				65C1AAF21D884100003B7FF6 /* ass_mcwc.pdf in Resources */,
+				65C1AAE41D8840C2003B7FF6 /* 160702_3.pdf in Resources */,
+				65C1AAD01D884049003B7FF6 /* ass_ins.pdf in Resources */,
+				65C1AAE21D8840C2003B7FF6 /* 160702_1.pdf in Resources */,
+				65C1AAC91D884000003B7FF6 /* acad_plan_dm.pdf in Resources */,
+				65C1AAD91D8840B2003B7FF6 /* ins_ch04.pdf in Resources */,
+				A972B9081D89B04A00C88D57 /* homeicon.png in Resources */,
+				65C1AACC1D88402A003B7FF6 /* syl_dm.pdf in Resources */,
+				65C1AAE61D8840C2003B7FF6 /* 160702_5.pdf in Resources */,
+				65C1AAE81D8840C2003B7FF6 /* 160702_7.pdf in Resources */,
+				65C1AAF11D884100003B7FF6 /* acad_plan_mcwc.pdf in Resources */,
+				65C1AAAA1D881B69003B7FF6 /* timetable.pdf in Resources */,
+				65C1AADA1D8840B2003B7FF6 /* ins_ch05.pdf in Resources */,
+				65C1AB081D8841E0003B7FF6 /* cd_2.pdf in Resources */,
+				65C1AACA1D884000003B7FF6 /* ass_dm.pdf in Resources */,
+				65C1AB0C1D8843F6003B7FF6 /* Reg_2012.pdf in Resources */,
+				65C1AAEE1D8840DD003B7FF6 /* syl_ins.pdf in Resources */,
+				65C1AAFA1D884149003B7FF6 /* mcwc_qp3.pdf in Resources */,
 				A9B84E061D87FA3500CDA465 /* Assets.xcassets in Resources */,
+				65C1AAFC1D884149003B7FF6 /* mcwc_qp5.pdf in Resources */,
 				A9B84E011D87FA3500CDA465 /* Main.storyboard in Resources */,
+				65C1AB021D8841CA003B7FF6 /* acad_plan_cd.pdf in Resources */,
+				65C1AB0E1D8843F6003B7FF6 /* Reg_2014.pdf in Resources */,
+				65C1AAE31D8840C2003B7FF6 /* 160702_2.pdf in Resources */,
+				A972B90D1D89B9CD00C88D57 /* amirajlogo.png in Resources */,
+				65C1AAC31D883F74003B7FF6 /* dm_qp2.pdf in Resources */,
+				65C1AAC51D883F74003B7FF6 /* dm_qp4.pdf in Resources */,
+				65C1AAF91D884149003B7FF6 /* mcwc_qp2.pdf in Resources */,
+				65C1AAFE1D8841B8003B7FF6 /* syl_mcwc.pdf in Resources */,
+				65C1AB041D8841CA003B7FF6 /* syl_cd.pdf in Resources */,
+				65C1AB071D8841E0003B7FF6 /* cd_1.pdf in Resources */,
+				65C1AAFB1D884149003B7FF6 /* mcwc_qp4.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,10 +344,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9B84DFE1D87FA3500CDA465 /* ViewController.m in Sources */,
+				A972B90B1D89B0B100C88D57 /* ViewController.m in Sources */,
+				6579172A1D8952A000DA6201 /* ToDoViewController.m in Sources */,
 				A9B84E041D87FA3500CDA465 /* IOSproject.xcdatamodeld in Sources */,
 				A9B84DFB1D87FA3400CDA465 /* AppDelegate.m in Sources */,
+				65C1AAAE1D8821FE003B7FF6 /* DisplayDataVC.m in Sources */,
 				A9B84DF81D87FA3400CDA465 /* main.m in Sources */,
+				65C1AA9F1D881841003B7FF6 /* HomeVc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +462,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = IOSproject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CreativeIos.IOSproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -278,10 +476,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = IOSproject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CreativeIos.IOSproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -304,6 +505,7 @@
 				A9B84E0F1D87FA3500CDA465 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
